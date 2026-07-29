@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "actualizado": "2026-07-28",
+  "farmacos": [
+    {
+      "id": "ibuprofeno",
+      "nombre_generico": "Ibuprofeno",
+      "letra": "I",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Ibuprofeno",
+        "clasificacion": "AINE (antiinflamatorio no esteroideo), derivado del ácido propiónico",
+        "accion_terapeutica": "Analgésico, antiinflamatorio y antipirético",
+        "mecanismo_accion": "Inhibe de forma no selectiva la ciclooxigenasa (COX-1 y COX-2), reduciendo la síntesis de prostaglandinas responsables del dolor, la inflamación y la fiebre"
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Buena absorción oral, pico plasmático a las 1-2 horas",
+        "distribucion": "Alta unión a proteínas plasmáticas (>90%)",
+        "metabolismo": "Hepático, vía citocromo P450 (CYP2C9)",
+        "eliminacion": "Renal, principalmente como metabolitos; vida media 2-4 horas"
+      },
+      "indicaciones": "Dolor leve a moderado, procesos inflamatorios, fiebre, dismenorrea",
+      "contraindicaciones": "Úlcera péptica activa, hipersensibilidad a AINEs, insuficiencia renal o hepática grave, tercer trimestre del embarazo, antecedente de asma inducida por AINEs",
+      "precauciones": "Usar con precaución en pacientes con antecedentes de sangrado digestivo, insuficiencia cardíaca, hipertensión o enfermedad renal",
+      "advertencias": "Riesgo cardiovascular y gastrointestinal aumentado con uso prolongado o dosis altas",
+      "embarazo_lactancia": "Evitar en el tercer trimestre (riesgo de cierre prematuro del ductus arterioso). Compatible con lactancia a dosis habituales según criterio médico",
+      "ajustes": {
+        "renal": "Evitar si clearance de creatinina <30 ml/min",
+        "hepatico": "Ajustar dosis en insuficiencia hepática moderada; evitar en insuficiencia grave"
+      },
+      "interacciones": "Aumenta riesgo de sangrado con anticoagulantes; disminuye efecto de antihipertensivos y diuréticos; riesgo de nefrotoxicidad con IECA/ARA-II",
+      "reacciones_adversas": "Dispepsia, dolor abdominal, cefalea, mareos",
+      "efectos_secundarios": "Náuseas, pirosis, edema periférico",
+      "toxicidad_sobredosis": "Náuseas, vómitos, dolor abdominal, somnolencia; en casos graves acidosis metabólica y depresión del SNC",
+      "antidotos": "No tiene antídoto específico; manejo de sostén y carbón activado si ingesta reciente",
+      "monitorizacion": {
+        "clinica": "Signos de sangrado digestivo, función renal, presión arterial",
+        "laboratorio": "Función renal, hepatograma, hemograma en tratamientos prolongados"
+      },
+      "parametros_valoracion": {
+        "antes": "Evaluar antecedentes de úlcera, función renal y alergias",
+        "durante": "Vigilar dolor abdominal, signos de sangrado digestivo",
+        "despues": "Control de respuesta analgésica y efectos adversos"
+      },
+      "presentaciones": "Comprimidos 400/600 mg, suspensión oral 100 mg/5 ml, ampollas IV 400/600 mg",
+      "dosis": {
+        "adultos": "400-600 mg cada 6-8 horas, máximo 2400 mg/día",
+        "pediatrico": "5-10 mg/kg cada 6-8 horas, máximo 40 mg/kg/día",
+        "geriatrico": "Utilizar la menor dosis eficaz por mayor riesgo gastrointestinal y renal"
+      },
+      "vias_administracion": "Oral, endovenosa",
+      "preparacion": {
+        "dilucion": "Diluir la ampolla IV en 100 ml de solución fisiológica al 0.9%",
+        "compatibilidad_iv": "Compatible con solución fisiológica; no mezclar con otras drogas en la misma vía"
+      },
+      "velocidad_infusion": "Infundir en 30 minutos",
+      "estabilidad_soluciones": "Una vez diluido, usar dentro de las 24 horas",
+      "concentracion": "No exceder 4 mg/ml",
+      "alarma_riesgo": "Vigilar función renal en pacientes deshidratados o con diuréticos",
+      "cuidados_enfermeria": "Administrar con alimentos para reducir irritación gástrica; controlar diuresis y signos de sangrado digestivo; no administrar junto a otros AINEs"
+    },
+    {
+      "id": "paracetamol",
+      "nombre_generico": "Paracetamol (Acetaminofén)",
+      "letra": "P",
+      "alto_riesgo": true,
+      "farmacodinamia": {
+        "principio_activo": "Paracetamol",
+        "clasificacion": "Analgésico y antipirético no opioide",
+        "accion_terapeutica": "Analgésico y antipirético",
+        "mecanismo_accion": "Inhibición central de la síntesis de prostaglandinas; acción antipirética sobre el centro termorregulador hipotalámico"
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Rápida y casi completa por vía oral, pico a los 30-60 minutos",
+        "distribucion": "Distribución amplia, baja unión a proteínas",
+        "metabolismo": "Hepático, conjugación con glucurónido y sulfato; una fracción menor forma el metabolito tóxico NAPQI",
+        "eliminacion": "Renal, vida media 2-3 horas"
+      },
+      "indicaciones": "Dolor leve a moderado y fiebre",
+      "contraindicaciones": "Insuficiencia hepática grave, hipersensibilidad al fármaco",
+      "precauciones": "Precaución en pacientes con hepatopatía crónica, desnutrición o consumo elevado de alcohol",
+      "advertencias": "El principal riesgo es la hepatotoxicidad por sobredosis, incluso con dosis relativamente cercanas a la máxima diaria en pacientes vulnerables",
+      "embarazo_lactancia": "Considerado seguro en embarazo y lactancia a dosis terapéuticas",
+      "ajustes": {
+        "renal": "Espaciar intervalo de dosis en insuficiencia renal grave",
+        "hepatico": "Reducir dosis o evitar en insuficiencia hepática"
+      },
+      "interacciones": "Aumenta el efecto de anticoagulantes orales con uso prolongado; el consumo crónico de alcohol aumenta el riesgo de hepatotoxicidad",
+      "reacciones_adversas": "Poco frecuentes a dosis terapéuticas; erupción cutánea ocasional",
+      "efectos_secundarios": "Raros a dosis habituales",
+      "toxicidad_sobredosis": "Hepatotoxicidad grave, inicialmente asintomática o con náuseas y vómitos, luego dolor en hipocondrio derecho e ictericia; puede progresar a falla hepática fulminante",
+      "antidotos": "N-acetilcisteína, más eficaz cuanto antes se administre tras la ingesta",
+      "monitorizacion": {
+        "clinica": "Signos de daño hepático (ictericia, dolor abdominal)",
+        "laboratorio": "Hepatograma, paracetamolemia según nomograma de Rumack-Matthew en sobredosis"
+      },
+      "parametros_valoracion": {
+        "antes": "Evaluar función hepática y consumo de alcohol",
+        "durante": "Vigilar dosis acumulada diaria, especialmente con presentaciones combinadas",
+        "despues": "Control de respuesta antitérmica/analgésica"
+      },
+      "presentaciones": "Comprimidos 500/650/1000 mg, jarabe 120 mg/5 ml, ampollas IV 1 g/100 ml",
+      "dosis": {
+        "adultos": "500-1000 mg cada 6-8 horas, máximo 4 g/día (3 g/día en uso prolongado o factores de riesgo)",
+        "pediatrico": "10-15 mg/kg cada 6-8 horas, máximo 60-75 mg/kg/día",
+        "geriatrico": "Considerar reducción de dosis máxima diaria en fragilidad o bajo peso"
+      },
+      "vias_administracion": "Oral, endovenosa, rectal",
+      "preparacion": {
+        "dilucion": "La presentación IV viene lista para infundir; no requiere dilución adicional",
+        "compatibilidad_iv": "No mezclar con otras soluciones en el mismo frasco"
+      },
+      "velocidad_infusion": "Infundir en 15 minutos",
+      "estabilidad_soluciones": "Usar dentro de la hora posterior a la apertura del envase",
+      "concentracion": "10 mg/ml (presentación estándar de 1 g/100 ml)",
+      "alarma_riesgo": "Riesgo de hepatotoxicidad por sobredosis o suma de presentaciones combinadas; verificar dosis diaria acumulada de todas las fuentes",
+      "cuidados_enfermeria": "Verificar que el paciente no esté recibiendo paracetamol por otra vía u otro medicamento combinado; vigilar signos de daño hepático en tratamientos prolongados; educar sobre no superar la dosis máxima diaria"
+    },
+    {
+      "id": "amoxicilina",
+      "nombre_generico": "Amoxicilina",
+      "letra": "A",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Amoxicilina",
+        "clasificacion": "Antibiótico betalactámico, familia de las aminopenicilinas",
+        "accion_terapeutica": "Antibacteriano de amplio espectro",
+        "mecanismo_accion": "Inhibe la síntesis de la pared celular bacteriana uniéndose a las proteínas fijadoras de penicilina (PBP), provocando lisis bacteriana"
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Buena absorción oral, no muy afectada por alimentos",
+        "distribucion": "Amplia distribución tisular, baja unión a proteínas",
+        "metabolismo": "Metabolismo hepático mínimo",
+        "eliminacion": "Principalmente renal por filtración glomerular y secreción tubular; vida media 1-1.5 horas"
+      },
+      "indicaciones": "Infecciones respiratorias, urinarias, de piel y tejidos blandos por gérmenes sensibles",
+      "contraindicaciones": "Hipersensibilidad a penicilinas o betalactámicos",
+      "precauciones": "Precaución en pacientes con antecedentes de alergias múltiples o mononucleosis infecciosa (riesgo de exantema)",
+      "advertencias": "Riesgo de reacciones de hipersensibilidad, desde exantema leve hasta anafilaxia",
+      "embarazo_lactancia": "Considerada segura en embarazo y lactancia",
+      "ajustes": {
+        "renal": "Ajustar intervalo o dosis en insuficiencia renal moderada a grave",
+        "hepatico": "No suele requerir ajuste específico"
+      },
+      "interacciones": "Puede disminuir la eficacia de anticonceptivos orales; el alopurinol aumenta el riesgo de exantema",
+      "reacciones_adversas": "Diarrea, náuseas, exantema cutáneo",
+      "efectos_secundarios": "Candidiasis oral o vaginal en tratamientos prolongados",
+      "toxicidad_sobredosis": "Alteraciones gastrointestinales; en dosis muy altas riesgo de cristaluria",
+      "antidotos": "No tiene antídoto específico; tratamiento de sostén",
+      "monitorizacion": {
+        "clinica": "Signos de reacción alérgica, evolución del cuadro infeccioso",
+        "laboratorio": "Función renal en tratamientos prolongados o dosis altas"
+      },
+      "parametros_valoracion": {
+        "antes": "Indagar antecedentes de alergia a penicilinas",
+        "durante": "Vigilar aparición de exantema o signos de hipersensibilidad",
+        "despues": "Evaluar respuesta clínica y adherencia al esquema completo"
+      },
+      "presentaciones": "Comprimidos 500/875 mg, suspensión oral 250 mg/5 ml, ampollas IV/IM 500 mg-1 g",
+      "dosis": {
+        "adultos": "500-875 mg cada 8-12 horas",
+        "pediatrico": "25-50 mg/kg/día divididos cada 8-12 horas",
+        "geriatrico": "Ajustar según función renal"
+      },
+      "vias_administracion": "Oral, intramuscular, endovenosa",
+      "preparacion": {
+        "dilucion": "Diluir la presentación IV en 10-20 ml de agua para inyección o solución fisiológica",
+        "compatibilidad_iv": "Compatible con solución fisiológica; no mezclar con soluciones glucosadas por mayor inestabilidad"
+      },
+      "velocidad_infusion": "Administrar en bolo lento de 3-4 minutos o infusión de 30 minutos según presentación",
+      "estabilidad_soluciones": "Una vez reconstituida, usar dentro de la hora",
+      "concentracion": "No exceder 30 mg/ml",
+      "alarma_riesgo": "Confirmar ausencia de alergia a betalactámicos antes de la primera dosis",
+      "cuidados_enfermeria": "Preguntar siempre por alergias previas a penicilinas antes de administrar; observar los primeros 30 minutos por posible reacción alérgica; completar el esquema antibiótico indicado aunque mejoren los síntomas"
+    }
+  ]
+}
