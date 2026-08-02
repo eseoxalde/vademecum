@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "actualizado": "2026-08-01",
+  "actualizado": "2026-07-28",
   "farmacos": [
     {
-      "id": "omeprazol",
-      "nombre_generico": "Omeprazol",
-      "letra": "O",
+      "id": "acenocumarol",
+      "nombre_generico": "Acenocumarol",
+      "letra": "A",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Omeprazol",
-        "clasificacion": "Inhibidores de la bomba de protones (IBP)",
-        "accion_terapeutica": "Inhibición de la secreción ácida gástrica",
-        "mecanismo_accion": "Inhibe de forma irreversible la enzima H+/K+-ATPasa localizada en la membrana apical de las células parietales gástricas."
+        "principio_activo": "Acenocumarol",
+        "clasificacion": "Anticoagulantes orales (Antagonistas de la Vitamina K)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista de la vitamina K que inhibe la síntesis hepática de los factores de coagulación dependientes de la vitamina K (II, VII, IX, X)."
       },
       "farmacocinetica_adme": {
-        "absorcion": "Se administran por vía oral y se absorben en el intestino delgado.",
+        "absorcion": "",
         "distribucion": "",
-        "metabolismo": "Metabolizados principalmente por las enzimas hepáticas CYP2C19 y CYP3A4.",
-        "eliminacion": "Vida media plasmática corta, pero efecto terapéutico persiste entre 24 y 48 horas debido a la unión irreversible con la bomba de protones."
+        "metabolismo": "",
+        "eliminacion": ""
       },
-      "indicaciones": "Enfermedad por reflujo gastroesofágico, esofagitis erosiva, úlcera gástrica y duodenal, profilaxis de úlceras inducidas por antiinflamatorios no esteroideos, Síndrome de Zollinger-Ellison y terapia de erradicación de Helicobacter pylori.",
-      "contraindicaciones": "",
+      "indicaciones": "Tratamiento y prevención de tromboembolismo venoso; Prevención de accidentes cerebrovasculares en fibrilación auricular; Prótesis valvulares cardíacas",
+      "contraindicaciones": "Hipersensibilidad al principio activo; Embarazo (especialmente primer trimestre); Diátesis hemorrágica o hemorragia activa; Hipertensión arterial severa no controlada",
       "precauciones": "",
-      "advertencias": "El uso prolongado puede asociarse con hipomagnesemia, déficit de vitamina B12, aumento del riesgo de fracturas osteoporóticas e infecciones gastrointestinales por Clostridioides difficile.",
+      "advertencias": "",
       "embarazo_lactancia": "",
       "ajustes": {
         "renal": "",
@@ -30,7 +30,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Cefalea, náuseas, dolor abdominal y diarrea.",
+      "efectos_secundarios": "Hemorragias; Necrosis cutánea; Alopecia; Hipersensibilidad",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -42,13 +42,13 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Sintrom",
       "dosis": {
-        "adultos": "",
+        "adultos": "Inicialmente 2 a 4 mg/día; ajuste posterior según el valor del RIN (Razón Internacional Normalizada).",
         "pediatrico": "",
         "geriatrico": ""
       },
-      "vias_administracion": "Vía oral",
+      "vias_administracion": "",
       "preparacion": {
         "dilucion": "",
         "compatibilidad_iv": ""
@@ -60,81 +60,423 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "ranitidina",
-      "nombre_generico": "Ranitidina",
+      "id": "warfarina",
+      "nombre_generico": "Warfarina",
+      "letra": "W",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Warfarina",
+        "clasificacion": "Anticoagulantes orales (Antagonistas de la Vitamina K)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe la subunidad 1 del complejo vitamina K epóxido reductasa, bloqueando la regeneración de vitamina K1 activa."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Prevención y tratamiento de trombosis venosa profunda; Embolismo pulmonar; Prevención de complicaciones tromboembólicas asociadas a fibrilación auricular o reemplazo de válvulas cardíacas",
+      "contraindicaciones": "Embarazo; Tendencia hemorrágica activa; Cirugía reciente del sistema nervioso central o del ojo; Ulcera péptica activa",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hemorragias principales y menores; Síndrome del dedo gordo del pie azul; Necrosis tisular",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Coumadin, Aldocumar",
+      "dosis": {
+        "adultos": "Dosis inicial habitual de 2.5 a 5 mg/día, ajustada individualmente según controles periódicos de RIN.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "heparina_sodica",
+      "nombre_generico": "Heparina Sódica",
+      "letra": "H",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Heparina Sódica",
+        "clasificacion": "Anticoagulantes parenterales (Heparinas no fraccionadas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Se une a la antitrombina III, acelerando la inactivación de los factores de la coagulación IIa (trombina) y Xa."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Tratamiento inicial de la trombosis venosa profunda y embolismo pulmonar; Síndrome coronario agudo; Anticoagulación en circuito extracorpóreo y hemodiálisis",
+      "contraindicaciones": "Trombocitopenia inducida por heparina (TIH) grave o antecedentes de la misma; Hemorragia activa no controlada; Endocarditis bacteriana subaguda",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hemorragias; Trombocitopenia inducida por heparina (TIH); Osteoporosis (uso prolongado); Reacciones de hipersensibilidad",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Heparina Na",
+      "dosis": {
+        "adultos": "Infusión continua IV ajustada según KPTT (o TPTa), habitualmente tras un bolo inicial de 50 a 80 UI/kg.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "heparina_calcica",
+      "nombre_generico": "Heparina Cálcica",
+      "letra": "H",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Heparina Cálcica",
+        "clasificacion": "Anticoagulantes parenterales (Heparinas no fraccionadas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Potencia la acción de la antitrombina III inhabilitando principalmente a la trombina y al factor Xa."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Profilaxis y tratamiento del tromboembolismo venoso; Prevención de coagulación en cirugía vascular y cardiaca",
+      "contraindicaciones": "Hemorragia activa; Antecedentes de trombocitopenia inducida por heparina; Lesiones orgánicas con riesgo de sangrado",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hemorragia; Trombocitopenia; Hematoma en el sitio de inyección",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Calciparina",
+      "dosis": {
+        "adultos": "Administración vía subcutánea profunda; la dosis varía según si la indicación es profiláctica o terapéutica.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "enoxaparina",
+      "nombre_generico": "Enoxaparina",
+      "letra": "E",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Enoxaparina",
+        "clasificacion": "Heparinas de Bajo Peso Molecular (HBPM)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe predominantemente el Factor Xa de la coagulación mediante su interacción con la antitrombina III."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Profilaxis de enfermedad tromboembólica venosa en pacientes quirúrgicos y médicos; Tratamiento de la TVP y embolia pulmonar; Tratamiento de angina inestable e infarto agudo de miocardio sin elevación del segmento ST",
+      "contraindicaciones": "Hemorragia activa grave; Antecedentes de TIH en los últimos 100 días; Ictus hemorrágico reciente",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hemorragia; Trombocitopenia moderada; Elevación de transaminasas hepáticas; Hematoma local",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Clexane, Lovenox",
+      "dosis": {
+        "adultos": "Profilaxis: 20-40 mg SC cada 24 horas. Tratamiento: 1 mg/kg SC cada 12 horas o 1.5 mg/kg cada 24 horas.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "clopidogrel",
+      "nombre_generico": "Clopidogrel",
+      "letra": "C",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Clopidogrel",
+        "clasificacion": "Antiagregantes plaquetarios (Tienopiridinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe de forma irreversible la unión del ADP a su receptor plaquetario P2Y12, bloqueando la activación del complejo GPIIb/IIIa."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Prevención de acontecimientos aterotrombóticos en infarto de miocardio, ictus isquémico o arteriopatía periférica; Síndrome coronario agudo (asociado a AAS)",
+      "contraindicaciones": "Hipersensibilidad al principio activo; Insuficiencia hepática grave; Hemorragia patológica activa (como úlcera péptica o hemorragia intracraneal)",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hemorragia (digestiva, hematoma); Dispepsia; Púrpura trombocitopénica trombótica (raro); Diarrea",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Plavix, Iscover",
+      "dosis": {
+        "adultos": "Dosis habitual de mantenimiento: 75 mg/día por vía oral. Dosis de carga en SCA: 300 mg a 600 mg.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "ticagrelor",
+      "nombre_generico": "Ticagrelor",
+      "letra": "T",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Ticagrelor",
+        "clasificacion": "Antiagregantes plaquetarios (Ciclopentiltriazolopirimidinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista selectivo y de acción reversible sobre el receptor P2Y12 de ADP en las plaquetas."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Prevención de acontecimientos aterotrombóticos en adultos con síndrome coronario agudo o antecedentes de infarto de miocardio",
+      "contraindicaciones": "Hemorragia patológica activa; Antecedentes de hemorragia intracraneal; Insuficiencia hepática moderada a grave",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Disnea; Epistaxis y otras hemorragias; Hiperuricemia; Pausas ventriculares",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Brilique, Brilinta",
+      "dosis": {
+        "adultos": "Dosis de carga de 180 mg VO, seguida de 90 mg dos veces al día.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "apixaban",
+      "nombre_generico": "Apixabán",
+      "letra": "A",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Apixabán",
+        "clasificacion": "Anticoagulantes orales directos (Inhibidores directos del Factor Xa)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibidor potente, oral, reversible y directo del sitio activo del factor Xa, tanto libre como ligado al coágulo."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Prevención del ictus y de la embolia sistémica en fibrilación auricular no valvular; Tratamiento y prevención de la TVP y embolia pulmonar; Profilaxis de ETV tras artroplastia de cadera o rodilla",
+      "contraindicaciones": "Hemorragia activa clínicamente significativa; Coagulopatía asociada a riesgo de sangrado; Lesiones con riesgo significativo de hemorragia mayor",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Anemia; Hemorragias (hematuria, hematoma, contusión, epistaxis); Nausea",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Eliquis",
+      "dosis": {
+        "adultos": "Fibrilación auricular: 5 mg cada 12 horas (2.5 mg bid según edad, peso y creatinina). Tratamiento TVP/EP: 10 mg bid por 7 días, luego 5 mg bid.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "rivaroxaban",
+      "nombre_generico": "Rivaroxabán",
       "letra": "R",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Ranitidina",
-        "clasificacion": "Antagonistas de los receptores H2",
-        "accion_terapeutica": "Inhibición de la secreción ácida gástrica",
-        "mecanismo_accion": "Bloquean de forma competitiva los receptores histamínicos H2 presentes en las células parietales gástricas, disminuyendo principalmente la secreción ácida basal y nocturna."
+        "principio_activo": "Rivaroxabán",
+        "clasificacion": "Anticoagulantes orales directos (Inhibidores directos del Factor Xa)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibidor directo y altamente selectivo del Factor Xa, bloqueando la cascada de coagulación intrínseca y extrínseca."
       },
       "farmacocinetica_adme": {
-        "absorcion": "Buena absorción oral, inicio de acción relativamente rápido.",
-        "distribucion": "",
-        "metabolismo": "",
-        "eliminacion": "Eliminación predominantemente renal."
-      },
-      "indicaciones": "Úlcera péptica, gastritis hiperácida, ERGE leve o moderada, prevención de úlceras por estrés.",
-      "contraindicaciones": "",
-      "precauciones": "",
-      "advertencias": "",
-      "embarazo_lactancia": "",
-      "ajustes": {
-        "renal": "",
-        "hepatico": ""
-      },
-      "interacciones": "",
-      "reacciones_adversas": "",
-      "efectos_secundarios": "Cefalea, mareos, diarrea y alteraciones del estado mental.",
-      "toxicidad_sobredosis": "",
-      "antidotos": "",
-      "monitorizacion": {
-        "clinica": "",
-        "laboratorio": ""
-      },
-      "parametros_valoracion": {
-        "antes": "",
-        "durante": "",
-        "despues": ""
-      },
-      "presentaciones": "",
-      "dosis": {
-        "adultos": "",
-        "pediatrico": "",
-        "geriatrico": ""
-      },
-      "vias_administracion": "Vía oral",
-      "preparacion": {
-        "dilucion": "",
-        "compatibilidad_iv": ""
-      },
-      "velocidad_infusion": "",
-      "estabilidad_soluciones": "",
-      "concentracion": "",
-      "alarma_riesgo": "",
-      "cuidados_enfermeria": ""
-    },
-    {
-      "id": "bicarbonato_de_sodio",
-      "nombre_generico": "Bicarbonato de sodio",
-      "letra": "B",
-      "alto_riesgo": false,
-      "farmacodinamia": {
-        "principio_activo": "Bicarbonato de sodio",
-        "clasificacion": "Neutralizantes de la acidez gástrica (Antiácidos)",
-        "accion_terapeutica": "Alivio sintomático de la acidez gástrica",
-        "mecanismo_accion": "Incrementan el pH intragástrico y disminuyen la actividad proteolítica de la pepsina."
-      },
-      "farmacocinetica_adme": {
-        "absorcion": "Actúan localmente en la luz gástrica y poseen un inicio de acción rápido, generalmente dentro de los primeros 15 minutos tras su administración.",
+        "absorcion": "",
         "distribucion": "",
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Dispepsia, pirosis, y reflujo gastroesofágico ocasional.",
-      "contraindicaciones": "",
+      "indicaciones": "Prevención del ictus en fibrilación auricular no valvular; Tratamiento y prevención de recaídas de TVP y EP; Profilaxis de eventos tromboembólicos tras cirugía ortopédica mayor",
+      "contraindicaciones": "Hemorragia activa grave; Enfermedad hepática asociada a coagulopatía y riesgo relevante de sangrado; Embarazo y lactancia",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -144,7 +486,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Alcalosis metabólica y retención de sodio.",
+      "efectos_secundarios": "Anemia; Hemorragia gastrointestinal, gingival o urogenital; Mareos; Cefalea",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -156,9 +498,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Xarelto",
       "dosis": {
-        "adultos": "",
+        "adultos": "Fibrilación auricular: 20 mg una vez al día con alimentos. Tratamiento TVP/EP: 15 mg cada 12 horas por 21 días, luego 20 mg/día.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -174,24 +516,309 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "sucralfato",
-      "nombre_generico": "Sucralfato",
+      "id": "dabigatran",
+      "nombre_generico": "Dabigatrán Etexilato",
+      "letra": "D",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Dabigatrán Etexilato",
+        "clasificacion": "Anticoagulantes orales directos (Inhibidores directos de la Trombina)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Prodroga que se convierte en dabigatrán, un inhibidor directo, reversible y competitivo de la trombina (Factor IIa)."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Prevención de ictus y embolia sistémica en fibrilación auricular no valvular; Tratamiento de la TVP y EP; Profilaxis primaria de ETV en cirugía de reemplazo articular",
+      "contraindicaciones": "Insuficiencia renal grave (ClCr < 30 mL/min); Hemorragia activa; Prótesis valvular cardíaca que requiera anticoagulación; Uso concomitante con ketoconazol sistémico o dronedarona",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Dispepsia y dolor abdominal alto; Hemorragia gastrointestinal; Anemia",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Pradaxa",
+      "dosis": {
+        "adultos": "Fibrilación auricular o TVP: 150 mg cada 12 horas (ajustar a 110 mg bid en ancianos o riesgo hemorrágico elevado).",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "alfa_metildopa",
+      "nombre_generico": "Alfa Metildopa",
+      "letra": "A",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Alfa Metildopa",
+        "clasificacion": "Antihipertensivos de acción central",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Estimula los receptores alfa-2 adrenérgicos centrales, reduciendo el tono simpático periférico y la resistencia vascular."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipertensión arterial (de elección en el tratamiento de la hipertensión inducida por el embarazo/preeclampsia)",
+      "contraindicaciones": "Enfermedad hepática activa (hepatitis, cirrosis); Antecedentes de disfunción hepática asociada a metildopa; Depresión grave",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Sedación y somnolencia; Cefalea; Prueba de Coombs directa positiva; Hepatotoxicidad; Sequedad de boca",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Aldomet, Dopamet",
+      "dosis": {
+        "adultos": "250 mg dos a tres veces al día por vía oral; ajustar según respuesta (máximo 3 g/día).",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "labetalol",
+      "nombre_generico": "Labetalol",
+      "letra": "L",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Labetalol",
+        "clasificacion": "Bloqueadores alfa y beta adrenérgicos",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Bloqueante competitivo no selectivo de receptores beta-adrenérgicos y bloqueante selectivo de receptores alfa-1 adrenérgicos."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipertensión arterial (incluyendo hipertensión del embarazo); Emergencias e urgencias hipertensivas (vía IV); Angina de pecho con hipertensión concomitante",
+      "contraindicaciones": "Bloqueo AV de segundo o tercer grado; Asma bronquial o enfermedad pulmonar obstructiva grave; Bradicardia severa o shock cardiogénico",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hipotensión ortostática; Congestión nasal; Fatiga y mareos; Broncoespasmo",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Trandate",
+      "dosis": {
+        "adultos": "Oral: 100 mg a 400 mg dos veces al día. Intravenosa (emergencias): infusión continua o bolos lentos de 20 mg.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "nifedipino",
+      "nombre_generico": "Nifedipino",
+      "letra": "N",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Nifedipino",
+        "clasificacion": "Antagonistas del calcio (Dihidropiridinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe la entrada de calcio extracelular en las células del músculo liso vascular y miocárdico."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipertensión arterial; Angina de pecho estable y vasoespástica (de Prinzmetal); Tocolítico en amenaza de parto pretérmino (uso fuera de ficha)",
+      "contraindicaciones": "Shock cardiogénico; Estenosis aórtica grave; Uso de nifedipino de liberación rápida en infarto agudo de miocardio reciente",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Edema maleolar/periférico; Rubor facial; Cefalea; Taquicardia refleja",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Adalat, Nifedipina",
+      "dosis": {
+        "adultos": "Formulaciones de liberación prolongada: 30 mg a 60 mg una vez al día.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "hidralazina",
+      "nombre_generico": "Hidralazina",
+      "letra": "H",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Hidralazina",
+        "clasificacion": "Vasodilatadores directos",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Vasodilatador arterial de acción directa por relajación del músculo liso vascular arterioral."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipertensión arterial grave; Emergencias hipertensivas en el embarazo (preeclampsia/eclampsia); Insuficiencia cardíaca congestiva (combinada con nitratos)",
+      "contraindicaciones": "Lupus eritematoso sistémico idiopático; Taquicardia severa e insuficiencia cardíaca con gasto elevado; Aneurisma disecante de aorta",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Taquicardia y palpitaciones; Cefalea; Síndrome lupus-like (con uso prolongado a altas dosis); Anorexia y náuseas",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Apresolina",
+      "dosis": {
+        "adultos": "Oral: 10 a 25 mg cada 6 horas. IV (urgencias): 5 a 20 mg en bolo lento.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "sulfato_magnesio",
+      "nombre_generico": "Sulfato de Magnesio",
       "letra": "S",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Sucralfato",
-        "clasificacion": "Protectores de la mucosa gástrica",
-        "accion_terapeutica": "Protección de la mucosa gastroduodenal",
-        "mecanismo_accion": "En presencia de un medio ácido forma un complejo viscoso que se adhiere a la superficie ulcerada, creando una barrera protectora contra el ácido gástrico, la pepsina y las sales biliares."
+        "principio_activo": "Sulfato de Magnesio",
+        "clasificacion": "Electrolitos / Anticonvulsivantes",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Bloquea la transmisión neuromuscular excitatoria y reduce la liberación de acetilcolina; antagonista fisiológico del calcio."
       },
       "farmacocinetica_adme": {
-        "absorcion": "Presenta mínima absorción sistémica y actúa principalmente de manera local.",
+        "absorcion": "",
         "distribucion": "",
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Úlcera duodenal, prevención de úlceras por estrés.",
-      "contraindicaciones": "",
+      "indicaciones": "Prevención y tratamiento de convulsiones en eclampsia y preeclampsia grave; Tratamiento de la Torsade de Pointes (taquicardia ventricular polimórfica); Hipomagnesemia severa",
+      "contraindicaciones": "Bloqueo cardíaco grave; Miastenia gravis; Insuficiencia renal grave (requiere estricta monitorización)",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -201,7 +828,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Estreñimiento.",
+      "efectos_secundarios": "Pérdida de reflejos osteotendinosos (signo precoz de toxicidad); Depresión respiratoria; Hipotensión; Sensación de calor y rubor",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -213,9 +840,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: SulfaMag, Sulfato de Magnesio Ampollas",
       "dosis": {
-        "adultos": "",
+        "adultos": "Eclampsia: Dosis de carga de 4 a 6 g IV durante 15-20 minutos, seguida de una infusión de mantenimiento de 1 a 2 g/hora.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -231,72 +858,414 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "misoprostol",
-      "nombre_generico": "Misoprostol",
+      "id": "atorvastatina",
+      "nombre_generico": "Atorvastatina",
+      "letra": "A",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Atorvastatina",
+        "clasificacion": "Hipolipemiantes (Inhibidores de la HMG-CoA reductasa / Estatinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe de forma competitiva la HMG-CoA reductasa, enzima limitante en la biosíntesis hepática del colesterol."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipercolesterolemia primaria y dislipidemia mixta; Prevención cardiovascular primaria y secundaria en pacientes de alto riesgo",
+      "contraindicaciones": "Enfermedad hepática activa o elevación persistente inexplicada de transaminasas; Embarazo y lactancia; Uso concomitante con antivirales para hepatitis C específicos",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Mialgias y artralgias; Elevación de enzimas hepáticas (ALT/AST); Rabdomiolisis (raro); Dispepsia",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Lipitor, Zarator",
+      "dosis": {
+        "adultos": "10 mg a 80 mg una vez al día por vía oral.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "rosuvastatina",
+      "nombre_generico": "Rosuvastatina",
+      "letra": "R",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Rosuvastatina",
+        "clasificacion": "Hipolipemiantes (Inhibidores de la HMG-CoA reductasa / Estatinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibidor selectivo y competitivo de la HMG-CoA reductasa, aumentando el número de receptores LDL hepáticos."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipercolesterolemia primaria; Prevención de eventos cardiovasculares mayores",
+      "contraindicaciones": "Enfermedad hepática activa; Insuficiencia renal grave (para dosis de 40 mg); Miopatía; Embarazo y lactancia",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Cefalea y mareo; Mialgia; Astenia; Diabetes mellitus (aumento del riesgo en predisposición)",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Crestor",
+      "dosis": {
+        "adultos": "5 mg a 20 mg VO una vez al día; dosis máxima de 40 mg reservada para alto riesgo severo.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "simvastatina",
+      "nombre_generico": "Simvastatina",
+      "letra": "S",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Simvastatina",
+        "clasificacion": "Hipolipemiantes (Inhibidores de la HMG-CoA reductasa / Estatinas)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Prodroga hidrolizada en el hígado a su forma activa beta-hidroxiácido, inhibiendo la HMG-CoA reductasa."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipercolesterolemia primaria; Reducción de la mortalidad y morbilidad cardiovascular en pacientes con cardiopatía isquémica",
+      "contraindicaciones": "Hepatopatía activa; Embarazo y lactancia; Coadministración con inhibidores potentes del CYP3A4 (itraconazol, ketoconazol, claritromicina, etc.)",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Miopatía y rabdomiolisis; Elevación de transaminasas; Flatulencia y estreñimiento",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Zocor",
+      "dosis": {
+        "adultos": "10 mg a 40 mg una vez al día por la noche.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "ezetimiba",
+      "nombre_generico": "Ezetimiba",
+      "letra": "E",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Ezetimiba",
+        "clasificacion": "Inhibidores de la absorción intestinal del colesterol",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe selectivamente la absorción intestinal del colesterol y esteroles relacionados bloqueando el transportador NPC1L1."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipercolesterolemia primaria (en monoterapia o coadministrada con una estatina); Prevención de eventos cardiovasculares en pacientes con ERC (junto con simvastatina)",
+      "contraindicaciones": "Hipersensibilidad al principio activo; Coadministración con estatina durante el embarazo o lactancia; Hepatopatía activa al combinarse con estatinas",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Dolor abdominal; Diarrea; Fatiga; Elevación de transaminasas (cuando se usa con estatina)",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Zetia, Ezetrol",
+      "dosis": {
+        "adultos": "10 mg una vez al día por vía oral, a cualquier hora con o sin alimentos.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "hidroclorotiazida",
+      "nombre_generico": "Hidroclorotiazida",
+      "letra": "H",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Hidroclorotiazida",
+        "clasificacion": "Diuréticos tiazídicos",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Inhibe la reabsorción de sodio y cloro en el túbulo contorneado distal del riñón, aumentando la excreción de agua, sodio y potasio."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Hipertensión arterial; Edema asociado a insuficiencia cardíaca, cirrosis hepática o disfunción renal",
+      "contraindicaciones": "Anuria; Hipersensibilidad a sulfonamidas; Hipopotasemia o hipercalcemia refractarias",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Hipopotasemia e hiponatremia; Hiperuricemia (riesgo de gota); Hiperglucemia; Hipotensión ortostática",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Esidrex, HydroDIURIL",
+      "dosis": {
+        "adultos": "Hipertensión: 12.5 mg a 25 mg una vez al día. Edema: 25 mg a 50 mg diarios.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "furosemida",
+      "nombre_generico": "Furosemida",
+      "letra": "F",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Furosemida",
+        "clasificacion": "Diuréticos del asa",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Bloquea el cotransportador Na+/K+/2Cl- en la rama ascendente gruesa del asa de Henle."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Edema agudo de pulmón; Edemas secundarios a insuficiencia cardíaca, renal o hepática; Crisis hipertensivas",
+      "contraindicaciones": "Anuria o insuficiencia renal anúrica; Hipovolemia o deshidratación; Hipopotasemia o hiponatremia graves",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Desequilibrio hidroelectrolítico (hipopotasemia, alcalosis hipoclorémica); Ototoxicidad (a altas dosis o infusión rápida); Hipotensión; Deshidratación",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Lasix, Seguril",
+      "dosis": {
+        "adultos": "Oral: 20 mg a 80 mg al día. IV: 20 mg a 40 mg en bolo (ampliable según respuesta).",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "espironolactona",
+      "nombre_generico": "Espironolactona",
+      "letra": "E",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Espironolactona",
+        "clasificacion": "Diuréticos ahorradores de potasio (Antagonistas de la aldosterona)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista competitivo de la aldosterona en el túbulo contorneado distal y túbulo colector, promoviendo la excreción de Na+ y retención de K+."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Insuficiencia cardíaca congestiva severa (clase NYHA III-IV); Hiperaldosteronismo primario y secundario; Ascitis por cirrosis hepática; Hipertensión arterial refractaria",
+      "contraindicaciones": "Hiperpotasemia; Insuficiencia renal grave o anuria; Enfermedad de Addison",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Ginecomastia y mastodinia; Hiperpotasemia; Alteraciones menstruales; Trastornos gastrointestinales",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Aldactone",
+      "dosis": {
+        "adultos": "25 mg a 100 mg diarios en una o varias tomas.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "manitol",
+      "nombre_generico": "Manitol",
       "letra": "M",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Misoprostol",
-        "clasificacion": "Antiulcerosos de acción mixta (Análogo sintético de la prostaglandina E1)",
-        "accion_terapeutica": "Disminución de la secreción gástrica de ácido y protección mucosa",
-        "mecanismo_accion": "Análogo sintético de la prostaglandina E1 que disminuye la secreción gástrica de ácido y aumenta la producción de moco y bicarbonato, fortaleciendo la barrera mucosa gástrica."
-      },
-      "farmacocinetica_adme": {
-        "absorcion": "Se absorbe rápidamente por vía oral.",
-        "distribucion": "",
-        "metabolismo": "",
-        "eliminacion": "Se elimina principalmente por vía renal."
-      },
-      "indicaciones": "Prevención de úlceras gastroduodenales inducidas por antiinflamatorios no esteroideos.",
-      "contraindicaciones": "Embarazo (debido a su efecto uterotónico).",
-      "precauciones": "",
-      "advertencias": "",
-      "embarazo_lactancia": "Contraindicado durante el embarazo debido a su efecto uterotónico.",
-      "ajustes": {
-        "renal": "",
-        "hepatico": ""
-      },
-      "interacciones": "",
-      "reacciones_adversas": "",
-      "efectos_secundarios": "Diarrea, dolor abdominal y náuseas.",
-      "toxicidad_sobredosis": "",
-      "antidotos": "",
-      "monitorizacion": {
-        "clinica": "",
-        "laboratorio": ""
-      },
-      "parametros_valoracion": {
-        "antes": "",
-        "durante": "",
-        "despues": ""
-      },
-      "presentaciones": "",
-      "dosis": {
-        "adultos": "",
-        "pediatrico": "",
-        "geriatrico": ""
-      },
-      "vias_administracion": "Vía oral",
-      "preparacion": {
-        "dilucion": "",
-        "compatibilidad_iv": ""
-      },
-      "velocidad_infusion": "",
-      "estabilidad_soluciones": "",
-      "concentracion": "",
-      "alarma_riesgo": "",
-      "cuidados_enfermeria": ""
-    },
-    {
-      "id": "metoclopramida",
-      "nombre_generico": "Metoclopramida",
-      "letra": "M",
-      "alto_riesgo": false,
-      "farmacodinamia": {
-        "principio_activo": "Metoclopramida",
-        "clasificacion": "Antieméticos - Antagonistas dopaminérgicos",
-        "accion_terapeutica": "Antiemético y procinético",
-        "mecanismo_accion": "Bloquean los receptores dopaminérgicos D2 de la zona gatillo quimiorreceptora. Además posee acción procinética al favorecer el vaciamiento gástrico."
+        "principio_activo": "Manitol",
+        "clasificacion": "Diuréticos osmóticos",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Aumenta la osmolaridad del plasma y del fluido en el túbulo renal, inhibiendo la reabsorción pasiva de agua."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -304,8 +1273,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Náuseas y vómitos postoperatorios, gastroparesia diabética y reflujo gastroesofágico.",
-      "contraindicaciones": "",
+      "indicaciones": "Reducción de la presión intracraneal elevada y edema cerebral; Reducción de la presión intraocular elevada (glaucoma agudo); Promoción de la diuresis en la prevención del fallo renal agudo",
+      "contraindicaciones": "Anuria por enfermedad renal grave; Congestión pulmonar o edema pulmonar severo; Deshidratación severa; Hemorragia intracraneal activa (salvo durante craneotomía)",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -315,7 +1284,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Somnolencia, hiperprolactinemia y síntomas extrapiramidales.",
+      "efectos_secundarios": "Desequilibrio electrolítico y deshidratación; Expansión del volumen plasmático inicial (riesgo de IC); Cefalea; Tromboflebitis",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -327,9 +1296,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Osmofundina, Manitol al 10% / 20%",
       "dosis": {
-        "adultos": "",
+        "adultos": "Infusión intravenosa de 0.25 g/kg a 1 g/kg de solución al 15% o 20% en 30 a 60 minutos.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -345,15 +1314,15 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "ondansetron",
-      "nombre_generico": "Ondansetrón",
-      "letra": "O",
+      "id": "atenolol",
+      "nombre_generico": "Atenolol",
+      "letra": "A",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Ondansetrón",
-        "clasificacion": "Antieméticos - Antagonistas serotoninérgicos (5-HT3)",
-        "accion_terapeutica": "Antiemético",
-        "mecanismo_accion": "Bloquean los receptores serotoninérgicos involucrados en la transmisión del estímulo emético."
+        "principio_activo": "Atenolol",
+        "clasificacion": "Bloqueadores beta adrenérgicos (Beta-1 selectivos)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Bloqueador beta-1 adrenérgico cardioselectivo, reduce la frecuencia cardíaca, el gasto cardíaco y la presión arterial."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -361,8 +1330,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Náuseas inducidas por quimioterapia y vómitos postoperatorios.",
-      "contraindicaciones": "",
+      "indicaciones": "Hipertensión arterial; Angina de pecho; Arritmias cardíacas; Fase aguda del infarto de miocardio",
+      "contraindicaciones": "Bradicardia severa (<45-50 bpm); Shock cardiogénico e insuficiencia cardíaca descompensada; Bloqueo AV de segundo o tercer grado; Síndrome del seno enfermo",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -372,7 +1341,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Cefalea, estreñimiento y prolongación del intervalo QT.",
+      "efectos_secundarios": "Extremidades frías; Bradicardia; Fatiga y astenia; Trastornos del sueño y pesadillas",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -384,9 +1353,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Tenormin",
       "dosis": {
-        "adultos": "",
+        "adultos": "50 mg a 100 mg una vez al día por vía oral.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -402,15 +1371,129 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "loperamida",
-      "nombre_generico": "Loperamida",
+      "id": "n_acetilcisteina",
+      "nombre_generico": "N-Acetilcisteína",
+      "letra": "N",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "N-Acetilcisteína",
+        "clasificacion": "Mucolíticos / Antídotos",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Rompe los puentes disulfuro de las mucoproteínas reduciendo la viscosidad del moco; actúa como antídoto de paracetamol aumentando los niveles de glutatión."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Enfermedades respiratorias con secreciones espesas (EPOC, bronquitis, fibrosis quística); Antídoto en intoxicación por paracetamol",
+      "contraindicaciones": "Hipersensibilidad al principio activo; Úlcera péptica activa",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Broncoespasmo (especialmente vía inhalatoria); Náuseas y vómitos; Estomatitis; Rinorrea",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Fluimucil, Tefel",
+      "dosis": {
+        "adultos": "Oral (adulto): 600 mg una vez al día o 200 mg cada 8 horas. Intoxicación por paracetamol: según protocolo hospitalario.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "difenhidramina",
+      "nombre_generico": "Clorhidrato de Difenhidramina",
+      "letra": "C",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Clorhidrato de Difenhidramina",
+        "clasificacion": "Antihistamínicos H1 de primera generación",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Bloquea los receptores H1 de histamina y posee efectos anticolinérgicos y sedantes sobre el SNC."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Rinitis alérgica, urticaria y reacciones alérgicas; Mareo por movimiento; Insomnio ocasional",
+      "contraindicaciones": "Hipersensibilidad al fármaco; Recién nacidos y lactantes; Glaucoma de ángulo cerrado; Hipertrofia prostática; Crisis asmática aguda",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Sedación intensa y somnolencia; Sequedad de mucosas; Retención urinaria; Visión borrosa",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "Nombres comerciales: Benadryl",
+      "dosis": {
+        "adultos": "25 mg a 50 mg cada 4 a 6 horas VO; dosis máxima 300 mg/día.",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "loratadina",
+      "nombre_generico": "Loratadina",
       "letra": "L",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Loperamida",
-        "clasificacion": "Antidiarreicos - Agonistas opioides periféricos",
-        "accion_terapeutica": "Antidiarreico",
-        "mecanismo_accion": "Activa receptores μ-opioides intestinales reduciendo el peristaltismo y prolongando el tiempo de tránsito intestinal."
+        "principio_activo": "Loratadina",
+        "clasificacion": "Antihistamínicos H1 de segunda generación",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista selectivo y competitivo de los receptores H1 periféricos de la histamina, sin efecto sedante central significativo."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -418,8 +1501,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Diarrea aguda inespecífica y diarrea crónica.",
-      "contraindicaciones": "",
+      "indicaciones": "Sintomatología de rinitis alérgica (estornudos, goteo nasal, prurito); Urticaria e irritación cutánea (dermatitis)",
+      "contraindicaciones": "Hipersensibilidad a loratadina o excipientes; Embarazo y lactancia (uso no recomendado)",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -429,7 +1512,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Estreñimiento, distensión abdominal e íleo paralítico en casos graves.",
+      "efectos_secundarios": "Somnolencia leve; Cefalea; Aumento del apetito; Sequedad bucal y dispepsia",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -441,9 +1524,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Claritin, Nalergin",
       "dosis": {
-        "adultos": "",
+        "adultos": "Adultos y niños > 12 años (> 30 kg): 10 mg una vez al día por vía oral.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -459,15 +1542,15 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "probioticos",
-      "nombre_generico": "Probióticos",
-      "letra": "P",
+      "id": "desloratadina",
+      "nombre_generico": "Desloratadina",
+      "letra": "D",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Probióticos",
-        "clasificacion": "Antidiarreicos - Probióticos",
-        "accion_terapeutica": "Restablecer la microbiota intestinal normal",
-        "mecanismo_accion": "Contribuyen a restablecer la microbiota intestinal normal."
+        "principio_activo": "Desloratadina",
+        "clasificacion": "Antihistamínicos H1 de segunda generación",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista competitivo selectivo de receptores H1 periféricos de acción prolongada, con actividad antialérgica y antiinflamatoria."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -475,8 +1558,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Diarrea asociada al uso de antibióticos y diarrea infecciosa.",
-      "contraindicaciones": "",
+      "indicaciones": "Rinitis alérgica estacional y perenne; Urticaria idiopática crónica",
+      "contraindicaciones": "Hipersensibilidad a desloratadina, excipientes o loratadina; Embarazo (salvo que beneficio supere el riesgo)",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -486,7 +1569,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Flatulencia y distensión abdominal.",
+      "efectos_secundarios": "Cefalea; Boca seca; Fatiga y somnolencia leve; Molestias gastrointestinales",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -498,9 +1581,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Aerius, Desalex",
       "dosis": {
-        "adultos": "",
+        "adultos": "Adultos y niños > 12 años: 5 mg (1 comprimido o 10 ml de jarabe) una vez al día.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -516,15 +1599,15 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "lactulosa",
-      "nombre_generico": "Lactulosa",
-      "letra": "L",
+      "id": "cetirizina",
+      "nombre_generico": "Cetirizina",
+      "letra": "C",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Lactulosa",
-        "clasificacion": "Laxantes osmóticos",
-        "accion_terapeutica": "Laxante",
-        "mecanismo_accion": "Retienen agua dentro de la luz intestinal por mecanismos osmóticos."
+        "principio_activo": "Cetirizina",
+        "clasificacion": "Antihistamínicos H1 de segunda generación (Derivados de piperazina)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Antagonista potente y selectivo de receptores H1 periféricos e inhibidor de la quimiotaxis de eosinófilos."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -532,8 +1615,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Estreñimiento crónico, preparación intestinal y encefalopatía hepática.",
-      "contraindicaciones": "",
+      "indicaciones": "Rinitis alérgica estacional y perenne; Conjuntivitis alérgica; Urticaria aguda y crónica idiopática",
+      "contraindicaciones": "Hipersensibilidad a cetirizina, hidroxizina o derivados de la piperazina; Insuficiencia renal grave (sin ajuste de dosis)",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -543,7 +1626,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Diarrea y desequilibrios hidroelectrolíticos.",
+      "efectos_secundarios": "Cefalea; Somnolencia leve; Fatiga y mareo; Sequedad bucal",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -555,9 +1638,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Zyrtec, Alercet",
       "dosis": {
-        "adultos": "",
+        "adultos": "Adultos y niños > 12 años: 10 mg una vez al día por vía oral.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -573,15 +1656,15 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "polietilenglicol",
-      "nombre_generico": "Polietilenglicol (PEG)",
-      "letra": "P",
+      "id": "salbutamol",
+      "nombre_generico": "Salbutamol",
+      "letra": "S",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Polietilenglicol",
-        "clasificacion": "Laxantes osmóticos",
-        "accion_terapeutica": "Laxante",
-        "mecanismo_accion": "Retienen agua dentro de la luz intestinal por mecanismos osmóticos."
+        "principio_activo": "Salbutamol",
+        "clasificacion": "Broncodilatadores (Agonistas beta-2 adrenérgicos de acción corta - SABA)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Estimula de manera selectiva los receptores beta-2 del músculo liso bronquial, produciendo broncodilatación rápida al incrementar el AMP cíclico."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -589,8 +1672,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Estreñimiento crónico, preparación intestinal.",
-      "contraindicaciones": "",
+      "indicaciones": "Tratamiento y prevención del broncoespasmo en asma, EPOC y bronquitis crónica; Profilaxis del broncoespasmo inducido por ejercicio o alérgenos; Tratamiento de la crisis asmática aguda",
+      "contraindicaciones": "Hipersensibilidad al principio activo; Taquiarritmias cardiacas graves; Feocromocitoma no controlado",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -600,7 +1683,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Diarrea y desequilibrios hidroelectrolíticos.",
+      "efectos_secundarios": "Temblor fino de manos; Taquicardia y palpitaciones; Cefalea; Hipopotasemia (a altas dosis)",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -612,9 +1695,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Ventolin, Salbutral",
       "dosis": {
-        "adultos": "",
+        "adultos": "Inhalación (aerosol): 100 a 200 mcg (1-2 disparos) cada 4 a 6 horas según necesidad. Nebulización: 2.5 a 5 mg por sesión.",
         "pediatrico": "",
         "geriatrico": ""
       },
@@ -630,15 +1713,15 @@
       "cuidados_enfermeria": ""
     },
     {
-      "id": "bisacodilo",
-      "nombre_generico": "Bisacodilo",
-      "letra": "B",
+      "id": "salmeterol",
+      "nombre_generico": "Salmeterol",
+      "letra": "S",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Bisacodilo",
-        "clasificacion": "Laxantes estimulantes",
-        "accion_terapeutica": "Laxante estimulante",
-        "mecanismo_accion": "Estimulan directamente los plexos nerviosos intestinales, aumentando la motilidad y la secreción intestinal."
+        "principio_activo": "Salmeterol",
+        "clasificacion": "Broncodilatadores (Agonistas beta-2 adrenérgicos de acción prolongada - LABA)",
+        "accion_terapeutica": "",
+        "mecanismo_accion": "Agonista selectivo de los receptores beta-2 adrenérgicos con una cadena lateral larga que le confiere una acción broncodilatadora prolongada de al menos 12 horas."
       },
       "farmacocinetica_adme": {
         "absorcion": "",
@@ -646,8 +1729,8 @@
         "metabolismo": "",
         "eliminacion": ""
       },
-      "indicaciones": "Facilitar la evacuación intestinal en pacientes con estreñimiento agudo o crónico.",
-      "contraindicaciones": "",
+      "indicaciones": "Tratamiento de mantenimiento del asma (siempre administrado junto con un corticoide inhalado); Tratamiento de la obstrucción de la vía aérea en EPOC; Prevención del broncoespasmo inducido por ejercicio",
+      "contraindicaciones": "Hipersensibilidad al salmeterol o lactosa; Tratamiento en monoterapia del asma (sin corticoide inhalado); Tratamiento de crisis agudas o ataques de asma repentinos",
       "precauciones": "",
       "advertencias": "",
       "embarazo_lactancia": "",
@@ -657,7 +1740,7 @@
       },
       "interacciones": "",
       "reacciones_adversas": "",
-      "efectos_secundarios": "Cólicos abdominales, diarrea, hipopotasemia y dependencia farmacológica por uso prolongado.",
+      "efectos_secundarios": "Cefalea; Temblores; Palpitaciones y taquicardia; Calambres musculares e irritación de garganta",
       "toxicidad_sobredosis": "",
       "antidotos": "",
       "monitorizacion": {
@@ -669,9 +1752,9 @@
         "durante": "",
         "despues": ""
       },
-      "presentaciones": "",
+      "presentaciones": "Nombres comerciales: Serevent",
       "dosis": {
-        "adultos": "",
+        "adultos": "Inhalación: 50 mcg dos veces al día (cada 12 horas).",
         "pediatrico": "",
         "geriatrico": ""
       },
