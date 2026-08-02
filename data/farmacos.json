@@ -1,177 +1,690 @@
 {
   "version": 1,
-  "actualizado": "2026-07-28",
+  "actualizado": "2026-08-01",
   "farmacos": [
     {
-      "id": "ibuprofeno",
-      "nombre_generico": "Ibuprofeno",
-      "letra": "I",
+      "id": "omeprazol",
+      "nombre_generico": "Omeprazol",
+      "letra": "O",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Ibuprofeno",
-        "clasificacion": "AINE (antiinflamatorio no esteroideo), derivado del ácido propiónico",
-        "accion_terapeutica": "Analgésico, antiinflamatorio y antipirético",
-        "mecanismo_accion": "Inhibe de forma no selectiva la ciclooxigenasa (COX-1 y COX-2), reduciendo la síntesis de prostaglandinas responsables del dolor, la inflamación y la fiebre"
+        "principio_activo": "Omeprazol",
+        "clasificacion": "Inhibidores de la bomba de protones (IBP)",
+        "accion_terapeutica": "Inhibición de la secreción ácida gástrica",
+        "mecanismo_accion": "Inhibe de forma irreversible la enzima H+/K+-ATPasa localizada en la membrana apical de las células parietales gástricas."
       },
       "farmacocinetica_adme": {
-        "absorcion": "Buena absorción oral, pico plasmático a las 1-2 horas",
-        "distribucion": "Alta unión a proteínas plasmáticas (>90%)",
-        "metabolismo": "Hepático, vía citocromo P450 (CYP2C9)",
-        "eliminacion": "Renal, principalmente como metabolitos; vida media 2-4 horas"
+        "absorcion": "Se administran por vía oral y se absorben en el intestino delgado.",
+        "distribucion": "",
+        "metabolismo": "Metabolizados principalmente por las enzimas hepáticas CYP2C19 y CYP3A4.",
+        "eliminacion": "Vida media plasmática corta, pero efecto terapéutico persiste entre 24 y 48 horas debido a la unión irreversible con la bomba de protones."
       },
-      "indicaciones": "Dolor leve a moderado, procesos inflamatorios, fiebre, dismenorrea",
-      "contraindicaciones": "Úlcera péptica activa, hipersensibilidad a AINEs, insuficiencia renal o hepática grave, tercer trimestre del embarazo, antecedente de asma inducida por AINEs",
-      "precauciones": "Usar con precaución en pacientes con antecedentes de sangrado digestivo, insuficiencia cardíaca, hipertensión o enfermedad renal",
-      "advertencias": "Riesgo cardiovascular y gastrointestinal aumentado con uso prolongado o dosis altas",
-      "embarazo_lactancia": "Evitar en el tercer trimestre (riesgo de cierre prematuro del ductus arterioso). Compatible con lactancia a dosis habituales según criterio médico",
+      "indicaciones": "Enfermedad por reflujo gastroesofágico, esofagitis erosiva, úlcera gástrica y duodenal, profilaxis de úlceras inducidas por antiinflamatorios no esteroideos, Síndrome de Zollinger-Ellison y terapia de erradicación de Helicobacter pylori.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "El uso prolongado puede asociarse con hipomagnesemia, déficit de vitamina B12, aumento del riesgo de fracturas osteoporóticas e infecciones gastrointestinales por Clostridioides difficile.",
+      "embarazo_lactancia": "",
       "ajustes": {
-        "renal": "Evitar si clearance de creatinina <30 ml/min",
-        "hepatico": "Ajustar dosis en insuficiencia hepática moderada; evitar en insuficiencia grave"
+        "renal": "",
+        "hepatico": ""
       },
-      "interacciones": "Aumenta riesgo de sangrado con anticoagulantes; disminuye efecto de antihipertensivos y diuréticos; riesgo de nefrotoxicidad con IECA/ARA-II",
-      "reacciones_adversas": "Dispepsia, dolor abdominal, cefalea, mareos",
-      "efectos_secundarios": "Náuseas, pirosis, edema periférico",
-      "toxicidad_sobredosis": "Náuseas, vómitos, dolor abdominal, somnolencia; en casos graves acidosis metabólica y depresión del SNC",
-      "antidotos": "No tiene antídoto específico; manejo de sostén y carbón activado si ingesta reciente",
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Cefalea, náuseas, dolor abdominal y diarrea.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
       "monitorizacion": {
-        "clinica": "Signos de sangrado digestivo, función renal, presión arterial",
-        "laboratorio": "Función renal, hepatograma, hemograma en tratamientos prolongados"
+        "clinica": "",
+        "laboratorio": ""
       },
       "parametros_valoracion": {
-        "antes": "Evaluar antecedentes de úlcera, función renal y alergias",
-        "durante": "Vigilar dolor abdominal, signos de sangrado digestivo",
-        "despues": "Control de respuesta analgésica y efectos adversos"
+        "antes": "",
+        "durante": "",
+        "despues": ""
       },
-      "presentaciones": "Comprimidos 400/600 mg, suspensión oral 100 mg/5 ml, ampollas IV 400/600 mg",
+      "presentaciones": "",
       "dosis": {
-        "adultos": "400-600 mg cada 6-8 horas, máximo 2400 mg/día",
-        "pediatrico": "5-10 mg/kg cada 6-8 horas, máximo 40 mg/kg/día",
-        "geriatrico": "Utilizar la menor dosis eficaz por mayor riesgo gastrointestinal y renal"
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
       },
-      "vias_administracion": "Oral, endovenosa",
+      "vias_administracion": "Vía oral",
       "preparacion": {
-        "dilucion": "Diluir la ampolla IV en 100 ml de solución fisiológica al 0.9%",
-        "compatibilidad_iv": "Compatible con solución fisiológica; no mezclar con otras drogas en la misma vía"
+        "dilucion": "",
+        "compatibilidad_iv": ""
       },
-      "velocidad_infusion": "Infundir en 30 minutos",
-      "estabilidad_soluciones": "Una vez diluido, usar dentro de las 24 horas",
-      "concentracion": "No exceder 4 mg/ml",
-      "alarma_riesgo": "Vigilar función renal en pacientes deshidratados o con diuréticos",
-      "cuidados_enfermeria": "Administrar con alimentos para reducir irritación gástrica; controlar diuresis y signos de sangrado digestivo; no administrar junto a otros AINEs"
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
     },
     {
-      "id": "paracetamol",
-      "nombre_generico": "Paracetamol (Acetaminofén)",
+      "id": "ranitidina",
+      "nombre_generico": "Ranitidina",
+      "letra": "R",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Ranitidina",
+        "clasificacion": "Antagonistas de los receptores H2",
+        "accion_terapeutica": "Inhibición de la secreción ácida gástrica",
+        "mecanismo_accion": "Bloquean de forma competitiva los receptores histamínicos H2 presentes en las células parietales gástricas, disminuyendo principalmente la secreción ácida basal y nocturna."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Buena absorción oral, inicio de acción relativamente rápido.",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": "Eliminación predominantemente renal."
+      },
+      "indicaciones": "Úlcera péptica, gastritis hiperácida, ERGE leve o moderada, prevención de úlceras por estrés.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Cefalea, mareos, diarrea y alteraciones del estado mental.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "Vía oral",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "bicarbonato_de_sodio",
+      "nombre_generico": "Bicarbonato de sodio",
+      "letra": "B",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Bicarbonato de sodio",
+        "clasificacion": "Neutralizantes de la acidez gástrica (Antiácidos)",
+        "accion_terapeutica": "Alivio sintomático de la acidez gástrica",
+        "mecanismo_accion": "Incrementan el pH intragástrico y disminuyen la actividad proteolítica de la pepsina."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Actúan localmente en la luz gástrica y poseen un inicio de acción rápido, generalmente dentro de los primeros 15 minutos tras su administración.",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Dispepsia, pirosis, y reflujo gastroesofágico ocasional.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Alcalosis metabólica y retención de sodio.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "sucralfato",
+      "nombre_generico": "Sucralfato",
+      "letra": "S",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Sucralfato",
+        "clasificacion": "Protectores de la mucosa gástrica",
+        "accion_terapeutica": "Protección de la mucosa gastroduodenal",
+        "mecanismo_accion": "En presencia de un medio ácido forma un complejo viscoso que se adhiere a la superficie ulcerada, creando una barrera protectora contra el ácido gástrico, la pepsina y las sales biliares."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Presenta mínima absorción sistémica y actúa principalmente de manera local.",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Úlcera duodenal, prevención de úlceras por estrés.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Estreñimiento.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "misoprostol",
+      "nombre_generico": "Misoprostol",
+      "letra": "M",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Misoprostol",
+        "clasificacion": "Antiulcerosos de acción mixta (Análogo sintético de la prostaglandina E1)",
+        "accion_terapeutica": "Disminución de la secreción gástrica de ácido y protección mucosa",
+        "mecanismo_accion": "Análogo sintético de la prostaglandina E1 que disminuye la secreción gástrica de ácido y aumenta la producción de moco y bicarbonato, fortaleciendo la barrera mucosa gástrica."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "Se absorbe rápidamente por vía oral.",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": "Se elimina principalmente por vía renal."
+      },
+      "indicaciones": "Prevención de úlceras gastroduodenales inducidas por antiinflamatorios no esteroideos.",
+      "contraindicaciones": "Embarazo (debido a su efecto uterotónico).",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "Contraindicado durante el embarazo debido a su efecto uterotónico.",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Diarrea, dolor abdominal y náuseas.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "Vía oral",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "metoclopramida",
+      "nombre_generico": "Metoclopramida",
+      "letra": "M",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Metoclopramida",
+        "clasificacion": "Antieméticos - Antagonistas dopaminérgicos",
+        "accion_terapeutica": "Antiemético y procinético",
+        "mecanismo_accion": "Bloquean los receptores dopaminérgicos D2 de la zona gatillo quimiorreceptora. Además posee acción procinética al favorecer el vaciamiento gástrico."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Náuseas y vómitos postoperatorios, gastroparesia diabética y reflujo gastroesofágico.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Somnolencia, hiperprolactinemia y síntomas extrapiramidales.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "ondansetron",
+      "nombre_generico": "Ondansetrón",
+      "letra": "O",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Ondansetrón",
+        "clasificacion": "Antieméticos - Antagonistas serotoninérgicos (5-HT3)",
+        "accion_terapeutica": "Antiemético",
+        "mecanismo_accion": "Bloquean los receptores serotoninérgicos involucrados en la transmisión del estímulo emético."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Náuseas inducidas por quimioterapia y vómitos postoperatorios.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Cefalea, estreñimiento y prolongación del intervalo QT.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "loperamida",
+      "nombre_generico": "Loperamida",
+      "letra": "L",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Loperamida",
+        "clasificacion": "Antidiarreicos - Agonistas opioides periféricos",
+        "accion_terapeutica": "Antidiarreico",
+        "mecanismo_accion": "Activa receptores μ-opioides intestinales reduciendo el peristaltismo y prolongando el tiempo de tránsito intestinal."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Diarrea aguda inespecífica y diarrea crónica.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Estreñimiento, distensión abdominal e íleo paralítico en casos graves.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "probioticos",
+      "nombre_generico": "Probióticos",
       "letra": "P",
-      "alto_riesgo": true,
-      "farmacodinamia": {
-        "principio_activo": "Paracetamol",
-        "clasificacion": "Analgésico y antipirético no opioide",
-        "accion_terapeutica": "Analgésico y antipirético",
-        "mecanismo_accion": "Inhibición central de la síntesis de prostaglandinas; acción antipirética sobre el centro termorregulador hipotalámico"
-      },
-      "farmacocinetica_adme": {
-        "absorcion": "Rápida y casi completa por vía oral, pico a los 30-60 minutos",
-        "distribucion": "Distribución amplia, baja unión a proteínas",
-        "metabolismo": "Hepático, conjugación con glucurónido y sulfato; una fracción menor forma el metabolito tóxico NAPQI",
-        "eliminacion": "Renal, vida media 2-3 horas"
-      },
-      "indicaciones": "Dolor leve a moderado y fiebre",
-      "contraindicaciones": "Insuficiencia hepática grave, hipersensibilidad al fármaco",
-      "precauciones": "Precaución en pacientes con hepatopatía crónica, desnutrición o consumo elevado de alcohol",
-      "advertencias": "El principal riesgo es la hepatotoxicidad por sobredosis, incluso con dosis relativamente cercanas a la máxima diaria en pacientes vulnerables",
-      "embarazo_lactancia": "Considerado seguro en embarazo y lactancia a dosis terapéuticas",
-      "ajustes": {
-        "renal": "Espaciar intervalo de dosis en insuficiencia renal grave",
-        "hepatico": "Reducir dosis o evitar en insuficiencia hepática"
-      },
-      "interacciones": "Aumenta el efecto de anticoagulantes orales con uso prolongado; el consumo crónico de alcohol aumenta el riesgo de hepatotoxicidad",
-      "reacciones_adversas": "Poco frecuentes a dosis terapéuticas; erupción cutánea ocasional",
-      "efectos_secundarios": "Raros a dosis habituales",
-      "toxicidad_sobredosis": "Hepatotoxicidad grave, inicialmente asintomática o con náuseas y vómitos, luego dolor en hipocondrio derecho e ictericia; puede progresar a falla hepática fulminante",
-      "antidotos": "N-acetilcisteína, más eficaz cuanto antes se administre tras la ingesta",
-      "monitorizacion": {
-        "clinica": "Signos de daño hepático (ictericia, dolor abdominal)",
-        "laboratorio": "Hepatograma, paracetamolemia según nomograma de Rumack-Matthew en sobredosis"
-      },
-      "parametros_valoracion": {
-        "antes": "Evaluar función hepática y consumo de alcohol",
-        "durante": "Vigilar dosis acumulada diaria, especialmente con presentaciones combinadas",
-        "despues": "Control de respuesta antitérmica/analgésica"
-      },
-      "presentaciones": "Comprimidos 500/650/1000 mg, jarabe 120 mg/5 ml, ampollas IV 1 g/100 ml",
-      "dosis": {
-        "adultos": "500-1000 mg cada 6-8 horas, máximo 4 g/día (3 g/día en uso prolongado o factores de riesgo)",
-        "pediatrico": "10-15 mg/kg cada 6-8 horas, máximo 60-75 mg/kg/día",
-        "geriatrico": "Considerar reducción de dosis máxima diaria en fragilidad o bajo peso"
-      },
-      "vias_administracion": "Oral, endovenosa, rectal",
-      "preparacion": {
-        "dilucion": "La presentación IV viene lista para infundir; no requiere dilución adicional",
-        "compatibilidad_iv": "No mezclar con otras soluciones en el mismo frasco"
-      },
-      "velocidad_infusion": "Infundir en 15 minutos",
-      "estabilidad_soluciones": "Usar dentro de la hora posterior a la apertura del envase",
-      "concentracion": "10 mg/ml (presentación estándar de 1 g/100 ml)",
-      "alarma_riesgo": "Riesgo de hepatotoxicidad por sobredosis o suma de presentaciones combinadas; verificar dosis diaria acumulada de todas las fuentes",
-      "cuidados_enfermeria": "Verificar que el paciente no esté recibiendo paracetamol por otra vía u otro medicamento combinado; vigilar signos de daño hepático en tratamientos prolongados; educar sobre no superar la dosis máxima diaria"
-    },
-    {
-      "id": "amoxicilina",
-      "nombre_generico": "Amoxicilina",
-      "letra": "A",
       "alto_riesgo": false,
       "farmacodinamia": {
-        "principio_activo": "Amoxicilina",
-        "clasificacion": "Antibiótico betalactámico, familia de las aminopenicilinas",
-        "accion_terapeutica": "Antibacteriano de amplio espectro",
-        "mecanismo_accion": "Inhibe la síntesis de la pared celular bacteriana uniéndose a las proteínas fijadoras de penicilina (PBP), provocando lisis bacteriana"
+        "principio_activo": "Probióticos",
+        "clasificacion": "Antidiarreicos - Probióticos",
+        "accion_terapeutica": "Restablecer la microbiota intestinal normal",
+        "mecanismo_accion": "Contribuyen a restablecer la microbiota intestinal normal."
       },
       "farmacocinetica_adme": {
-        "absorcion": "Buena absorción oral, no muy afectada por alimentos",
-        "distribucion": "Amplia distribución tisular, baja unión a proteínas",
-        "metabolismo": "Metabolismo hepático mínimo",
-        "eliminacion": "Principalmente renal por filtración glomerular y secreción tubular; vida media 1-1.5 horas"
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
       },
-      "indicaciones": "Infecciones respiratorias, urinarias, de piel y tejidos blandos por gérmenes sensibles",
-      "contraindicaciones": "Hipersensibilidad a penicilinas o betalactámicos",
-      "precauciones": "Precaución en pacientes con antecedentes de alergias múltiples o mononucleosis infecciosa (riesgo de exantema)",
-      "advertencias": "Riesgo de reacciones de hipersensibilidad, desde exantema leve hasta anafilaxia",
-      "embarazo_lactancia": "Considerada segura en embarazo y lactancia",
+      "indicaciones": "Diarrea asociada al uso de antibióticos y diarrea infecciosa.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
       "ajustes": {
-        "renal": "Ajustar intervalo o dosis en insuficiencia renal moderada a grave",
-        "hepatico": "No suele requerir ajuste específico"
+        "renal": "",
+        "hepatico": ""
       },
-      "interacciones": "Puede disminuir la eficacia de anticonceptivos orales; el alopurinol aumenta el riesgo de exantema",
-      "reacciones_adversas": "Diarrea, náuseas, exantema cutáneo",
-      "efectos_secundarios": "Candidiasis oral o vaginal en tratamientos prolongados",
-      "toxicidad_sobredosis": "Alteraciones gastrointestinales; en dosis muy altas riesgo de cristaluria",
-      "antidotos": "No tiene antídoto específico; tratamiento de sostén",
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Flatulencia y distensión abdominal.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
       "monitorizacion": {
-        "clinica": "Signos de reacción alérgica, evolución del cuadro infeccioso",
-        "laboratorio": "Función renal en tratamientos prolongados o dosis altas"
+        "clinica": "",
+        "laboratorio": ""
       },
       "parametros_valoracion": {
-        "antes": "Indagar antecedentes de alergia a penicilinas",
-        "durante": "Vigilar aparición de exantema o signos de hipersensibilidad",
-        "despues": "Evaluar respuesta clínica y adherencia al esquema completo"
+        "antes": "",
+        "durante": "",
+        "despues": ""
       },
-      "presentaciones": "Comprimidos 500/875 mg, suspensión oral 250 mg/5 ml, ampollas IV/IM 500 mg-1 g",
+      "presentaciones": "",
       "dosis": {
-        "adultos": "500-875 mg cada 8-12 horas",
-        "pediatrico": "25-50 mg/kg/día divididos cada 8-12 horas",
-        "geriatrico": "Ajustar según función renal"
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
       },
-      "vias_administracion": "Oral, intramuscular, endovenosa",
+      "vias_administracion": "",
       "preparacion": {
-        "dilucion": "Diluir la presentación IV en 10-20 ml de agua para inyección o solución fisiológica",
-        "compatibilidad_iv": "Compatible con solución fisiológica; no mezclar con soluciones glucosadas por mayor inestabilidad"
+        "dilucion": "",
+        "compatibilidad_iv": ""
       },
-      "velocidad_infusion": "Administrar en bolo lento de 3-4 minutos o infusión de 30 minutos según presentación",
-      "estabilidad_soluciones": "Una vez reconstituida, usar dentro de la hora",
-      "concentracion": "No exceder 30 mg/ml",
-      "alarma_riesgo": "Confirmar ausencia de alergia a betalactámicos antes de la primera dosis",
-      "cuidados_enfermeria": "Preguntar siempre por alergias previas a penicilinas antes de administrar; observar los primeros 30 minutos por posible reacción alérgica; completar el esquema antibiótico indicado aunque mejoren los síntomas"
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "lactulosa",
+      "nombre_generico": "Lactulosa",
+      "letra": "L",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Lactulosa",
+        "clasificacion": "Laxantes osmóticos",
+        "accion_terapeutica": "Laxante",
+        "mecanismo_accion": "Retienen agua dentro de la luz intestinal por mecanismos osmóticos."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Estreñimiento crónico, preparación intestinal y encefalopatía hepática.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Diarrea y desequilibrios hidroelectrolíticos.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "polietilenglicol",
+      "nombre_generico": "Polietilenglicol (PEG)",
+      "letra": "P",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Polietilenglicol",
+        "clasificacion": "Laxantes osmóticos",
+        "accion_terapeutica": "Laxante",
+        "mecanismo_accion": "Retienen agua dentro de la luz intestinal por mecanismos osmóticos."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Estreñimiento crónico, preparación intestinal.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Diarrea y desequilibrios hidroelectrolíticos.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
+    },
+    {
+      "id": "bisacodilo",
+      "nombre_generico": "Bisacodilo",
+      "letra": "B",
+      "alto_riesgo": false,
+      "farmacodinamia": {
+        "principio_activo": "Bisacodilo",
+        "clasificacion": "Laxantes estimulantes",
+        "accion_terapeutica": "Laxante estimulante",
+        "mecanismo_accion": "Estimulan directamente los plexos nerviosos intestinales, aumentando la motilidad y la secreción intestinal."
+      },
+      "farmacocinetica_adme": {
+        "absorcion": "",
+        "distribucion": "",
+        "metabolismo": "",
+        "eliminacion": ""
+      },
+      "indicaciones": "Facilitar la evacuación intestinal en pacientes con estreñimiento agudo o crónico.",
+      "contraindicaciones": "",
+      "precauciones": "",
+      "advertencias": "",
+      "embarazo_lactancia": "",
+      "ajustes": {
+        "renal": "",
+        "hepatico": ""
+      },
+      "interacciones": "",
+      "reacciones_adversas": "",
+      "efectos_secundarios": "Cólicos abdominales, diarrea, hipopotasemia y dependencia farmacológica por uso prolongado.",
+      "toxicidad_sobredosis": "",
+      "antidotos": "",
+      "monitorizacion": {
+        "clinica": "",
+        "laboratorio": ""
+      },
+      "parametros_valoracion": {
+        "antes": "",
+        "durante": "",
+        "despues": ""
+      },
+      "presentaciones": "",
+      "dosis": {
+        "adultos": "",
+        "pediatrico": "",
+        "geriatrico": ""
+      },
+      "vias_administracion": "",
+      "preparacion": {
+        "dilucion": "",
+        "compatibilidad_iv": ""
+      },
+      "velocidad_infusion": "",
+      "estabilidad_soluciones": "",
+      "concentracion": "",
+      "alarma_riesgo": "",
+      "cuidados_enfermeria": ""
     }
   ]
 }
