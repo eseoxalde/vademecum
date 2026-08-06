@@ -252,7 +252,7 @@ function renderDetalle(modo, id) {
         `
         ${campo("Principio activo", f.farmacodinamia?.principio_activo)}
         ${campo("Clasificación", f.farmacodinamia?.clasificacion)}
-        ${campo("Acción terapéutica", f.farmacodinamia?.accion_terapeutica)}
+        ${campo("Efecto terapéutica", f.farmacodinamia?.efecto_terapeutica)}
         ${campo("Mecanismo de acción", f.farmacodinamia?.mecanismo_accion)}
       `,
       )}
@@ -290,8 +290,7 @@ function renderDetalle(modo, id) {
         "Seguridad",
         `
         ${campo("Interacciones farmacológicas", f.interacciones)}
-        ${campo("Reacciones adversas", f.reacciones_adversas)}
-        ${campo("Efectos secundarios", f.efectos_secundarios)}
+        ${campo("Efectos adversas", f.reacciones_adversas)}
         ${campo("Toxicidad y sobredosis", f.toxicidad_sobredosis)}
         ${campo("Antídotos", f.antidotos)}
       `,
@@ -344,7 +343,7 @@ function renderDetalle(modo, id) {
         "resumen",
         "Resumen",
         `
-        ${campo("Acción terapéutica", f.farmacodinamia?.accion_terapeutica)}
+        ${campo("Efecto terapéutica", f.farmacodinamia?.efecto_terapeutica)}
         ${campo("Presentaciones", f.presentaciones)}
         ${campo("Vías de administración", f.vias_administracion)}
       `,
@@ -375,7 +374,16 @@ function renderDetalle(modo, id) {
         `
         ${campo("Antídotos", f.antidotos)}
         ${campo("Alarma de riesgo", f.alarma_riesgo)}
-        ${campo("Cuidados de enfermería", f.cuidados_enfermeria)}
+        ${campo(
+          "Cuidados de enfermería",
+          `
+              <strong>Cuidados</strong><br>
+              • ${f.cuidados_enfermeria.cuidados.join("<br>• ")}
+              <br><br>
+              <strong>Educación al paciente</strong><br>
+              • ${f.cuidados_enfermeria.educacion_paciente.join("<br>• ")}
+              `,
+        )}
       `,
       )}
        ${seccion(
